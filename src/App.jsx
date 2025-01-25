@@ -8,7 +8,7 @@ function App() {
   let y = 5;
   const [numbers, setNumbers] = useState([1, 2, 3, 4, 5]);
   const [x, setX] = useState();
-  const [score, setScore] = useState();
+  const [score, setScore] = useState("none");
   return (
     <>
       {submit && (
